@@ -1,0 +1,12 @@
+<?xml version="1.0" ?>
+<module xmlns="urn:jboss:module:1.3" name="com.impossibl.pgjdbc-ng">
+  <resources>
+    <artifact name="com.impossibl.pgjdbc-ng:pgjdbc-ng:${version.pgjdbc-ng}"/>
+  </resources>
+  <dependencies>
+    <module name="javax.api"/>
+    <module name="javax.transaction.api"/>
+    <!--<module name="io.netty"/>-->
+    <!--<module name="javax.xml.bind.api"/>-->
+  </dependencies>
+</module>
